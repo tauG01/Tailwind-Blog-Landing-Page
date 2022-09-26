@@ -13,3 +13,10 @@ close_btn.addEventListener('click', () => {
   close_btn.classList.add('hidden')
   open_btn.classList.remove('hidden')
 })
+
+const search_btn = document.getElementById('search-btn');
+const search_bar = document.getElementById('search-bar');
+
+search_btn.addEventListener('click', () => {
+  search_bar.classList.toggle('hidden');
+})
