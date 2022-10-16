@@ -8,11 +8,11 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
     },
-    fontFamily:{
-      sans:['poppins', 'sans-serif']
+    fontFamily: {
+      sans: ['poppins', 'sans-serif']
     },
     extend: {
-      colors:{
+      colors: {
         darkBlue: '#0C2853',
         orange: '#FF4820',
         lightOrange: '#FF7051',

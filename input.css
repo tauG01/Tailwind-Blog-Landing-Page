@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* scroll stuff */
+.scroll-down nav {
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up nav {}
